@@ -24,7 +24,7 @@ composer require your-vendor/filament-multi-side-select
 ## Usage
 
 ```php
-use YourVendor\FilamentMultiSideSelect\Components\MultiSideSelect;
+use rlessi\FilamentMultiSideSelect\Components\MultiSideSelect;
 
 MultiSideSelect::make('categories')
     ->relationship('categories', 'name')
@@ -38,7 +38,7 @@ MultiSideSelect::make('categories')
 In your Filament form, use the component like this:
 
 ```php
-use YourVendor\FilamentMultiSideSelect\Components\MultiSideSelect;
+use rlessi\FilamentMultiSideSelect\Components\MultiSideSelect;
 
 public static function form(Form $form): Form
 {

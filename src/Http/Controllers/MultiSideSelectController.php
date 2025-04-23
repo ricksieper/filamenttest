@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\FilamentMultiSideSelect\Http\Controllers;
+namespace rlessi\FilamentMultiSideSelect\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\JsonResponse;
@@ -8,7 +8,7 @@ use Illuminate\Routing\Controller;
 use Illuminate\Support\Arr;
 use Filament\Forms\Get;
 use Filament\Forms\ComponentContainer;
-use YourVendor\FilamentMultiSideSelect\Components\MultiSideSelect;
+use rlessi\FilamentMultiSideSelect\Components\MultiSideSelect;
 
 class MultiSideSelectController extends Controller
 {

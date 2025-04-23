@@ -1,9 +1,9 @@
 <?php
 
-namespace YourVendor\FilamentMultiSideSelect\Facades;
+namespace rlessi\FilamentMultiSideSelect\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use YourVendor\FilamentMultiSideSelect\Components\MultiSideSelect as MultiSideSelectComponent;
+use rlessi\FilamentMultiSideSelect\Components\MultiSideSelect as MultiSideSelectComponent;
 
 /**
  * @method static MultiSideSelectComponent make(string $name)

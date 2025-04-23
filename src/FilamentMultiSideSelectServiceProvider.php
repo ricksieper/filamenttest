@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\FilamentMultiSideSelect;
+namespace rlessi\FilamentMultiSideSelect;
 
 use Filament\Support\Assets\AlpineComponent;
 use Filament\Support\Assets\Asset;

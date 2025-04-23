@@ -5,7 +5,7 @@ Here are some examples of how to use the Filament Multi-Side Select component in
 ## Basic Example
 
 ```php
-use YourVendor\FilamentMultiSideSelect\Components\MultiSideSelect;
+use rlessi\FilamentMultiSideSelect\Components\MultiSideSelect;
 
 public static function form(Form $form): Form
 {
@@ -21,7 +21,7 @@ public static function form(Form $form): Form
 ## With Custom Search
 
 ```php
-use YourVendor\FilamentMultiSideSelect\Components\MultiSideSelect;
+use rlessi\FilamentMultiSideSelect\Components\MultiSideSelect;
 use Illuminate\Database\Eloquent\Builder;
 
 public static function form(Form $form): Form
@@ -44,7 +44,7 @@ public static function form(Form $form): Form
 ## With BelongsToMany Relationship
 
 ```php
-use YourVendor\FilamentMultiSideSelect\Components\MultiSideSelect;
+use rlessi\FilamentMultiSideSelect\Components\MultiSideSelect;
 
 // In a Post resource
 public static function form(Form $form): Form
@@ -62,7 +62,7 @@ public static function form(Form $form): Form
 ## With HasMany Relationship
 
 ```php
-use YourVendor\FilamentMultiSideSelect\Components\MultiSideSelect;
+use rlessi\FilamentMultiSideSelect\Components\MultiSideSelect;
 
 // In a User resource
 public static function form(Form $form): Form
@@ -80,7 +80,7 @@ public static function form(Form $form): Form
 
 ```php
 use App\Filament\Resources\ProductResource;
-use YourVendor\FilamentMultiSideSelect\Components\MultiSideSelect;
+use rlessi\FilamentMultiSideSelect\Components\MultiSideSelect;
 use Filament\Forms;
 use Filament\Resources\Form;
 use Filament\Resources\Resource;
@@ -134,7 +134,7 @@ If you're creating a custom Livewire component that uses the Multi-Side Select:
 ```php
 use Filament\Forms;
 use Livewire\Component;
-use YourVendor\FilamentMultiSideSelect\Components\MultiSideSelect;
+use rlessi\FilamentMultiSideSelect\Components\MultiSideSelect;
 
 class ManagePostCategories extends Component implements Forms\Contracts\HasForms
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace YourVendor\FilamentMultiSideSelect\Components;
+namespace rlessi\FilamentMultiSideSelect\Components;
 
 use Closure;
 use Filament\Forms\Components\Field;
