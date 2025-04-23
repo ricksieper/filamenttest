@@ -31,5 +31,5 @@
     "sort-packages": true
   },
   "minimum-stability": "stable",
-  "prefer-stable": "stable"
+  "prefer-stable": true
 }
